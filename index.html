@@ -3,9 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap</title>
 </head>
+
 <body>
+
+    <header class="container-fluid fixed-top">
+        <div class="container">        
+        
+            <nav class="navbar">
+                <div class="">      
+                <a href="#" class="navbar-brand start"><strong>Sara Margarido</strong></a>    
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#">
+                                <button class="button text-uppercase">Portfolio</button></a>
+                        </li>
+
+                        <li><a href="#">
+                                <button class="button text-uppercase">About</button></a>
+                        </li>
+                        <li><a href="#" data-toggle="modal" data-target="#contact">
+                                <button class="button text-uppercase">Contact</button></a>
+                        </li>
+                    </ul>                
+                </div>
+
+            </nav>
+        </div>
+    </header>
     
+    <!-- <section class="section_1">
+        <div class="container verde">
+        <img src="img/avatar.png" id="avatar" alt="avatar">
+        <h1><strong>Start BootStrap</strong></h1>
+        <img src="img/barra_estrela_branca.png" id="estrelabranca" alt="barra"><br>
+        <p>Graphic Artist - Web Designer - Illustrator</p>
+        </div>
+    </section>
+
+    <section class="container section_2">
+        <div class="container branco">
+            <h2 id="azul"><strong>portifolio</strong></h2>
+            <img src="img/barra_estrela_azul.png" id="estrelaazul" alt="barra"><br>
+        </div>
+            <div class="row portifolio">
+            
+            <div class="container2 col-xs-4">
+            <img src="img/cabin.png" alt="cabin">
+            <a href="#"><div class="overlay">
+            <div class="text">+</div></a>
+            </div></div>
+
+            <div class="container2 col-xs-4">
+            <img src="img/cake.png" alt="cake">
+            <a href="#"><div class="overlay">
+            <div class="text">+</div></a>
+            </div></div>
+
+            <div class="container2 col-xs-4">
+            <img src="img/circus.png" alt="circus">
+            <a href="#"><div class="overlay">
+            <div class="text">+</div></a>
+            </div></div>
+            
+            <div class="container2 col-xs-4">
+            <img src="img/game.png" alt="game">
+            <a href="#"><div class="overlay">
+            <div class="text">+</div></a>
+            </div></div>
+            
+            <div class="container2 col-xs-4">
+            <img src="img/safe.png" alt="safe">
+            <a href="#"><div class="overlay">
+            <div class="text">+</div></a>
+            </div></div>
+            
+            <div class="container2 col-xs-4">
+            <img src="img/submarine.png" alt="submarine">
+            <a href="#"><div class="overlay">
+            <div class="text">+</div></a>
+            </div></div>
+      
+        </div>   
+        
+
+    </section>
+
+    <section class="section_3">
+            <div class="container verde">
+            <h2 id="branco"><strong>About</strong></h2>
+            <img src="img/barra_estrela_branca.png" id="estrelabranca" alt="barra"><br>
+            <div class="container">
+                    <div class="row colunas">
+                      <div class="col-xs-12 col-md-6 text-center">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae a magnam accusantium officiis totam, 
+                            dignissimos in natus perferendis hic nesciunt! Officiis saepe, doloremque adipisci assumenda excepturi!
+                      </div>
+                      <div class="col-xs-12 col-md-6 text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat saepe in eos labore 
+                            repudiandae iusto hic? Ea omnis, eius unde quisquam magni a debitis facere veniam, perferendis odio!
+                      </div>
+                    </div>
+                </div>
+            <br><br><button type="button" class="btn btn-outline-light btn-sm" id="button"><img src="img/download.png" id="download">
+                  free Download!</button>
+            
+            </div>
+            
+    </section>
+
+    <section class="container section_2 section_4">
+            <div class="container branco contact">
+                <h2 id="azul"><strong>contact me</strong></h2>
+                <img src="img/barra_estrela_azul.png" id="estrelaazul" alt="barra"><br>
+                <form>
+                <div class="form-group formulario">
+                    <label for="name">Name </label><br>
+                    <input type="text" class="form-control form-control-sm" name="name" id="name" required><br><br>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" class="form-control form-control-sm" name="email" id="email" required><br><br>
+                    <label for="tel">Phone Number</label><br>
+                    <input type="tel" class="form-control form-control-sm" name="tel" id="tel" required><br><br>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" class="form-control" id="message" cols="40" rows="3" required></textarea><br>
+                    <button type="submit" class="btn btn-light" id="send">Send</button>
+                </form>
+
+            </div>
+            </div>
+    </section>
+      
+    <section class="section_5">
+            <div class="container">
+                    <div class="row colunasfooter">
+                      <div class="col">
+                            <h5 class="footertext"><strong>location</strong></h5>
+                            <p class="footertext">2515, John Daniel Drive Clark, MO 65243</p>
+                      </div>
+                      <div class="col">
+                            <h5 class="footertext"><strong>around the web</strong></h5>
+                            <div class="container socialmedias">
+                                    <a href="#" class="icons"><img src="facebook.png" alt=""></a>
+                                    <a href="#" class="icons"><img src="twitter.png" alt=""></a>
+                                    <a href="#" class="icons"><img src="linkedin.png" alt=""></a>
+                                    <a href="#" class="icons"><img src="instagram.png" alt=""></a>
+                            </div>
+                      </div>
+                      <div class="col">
+                            <h5 class="footertext"><strong>about freelancer</strong></h5>
+                            <p class="footertext">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                </div>
+
+    </section>
+
+    <footer>
+        <p>Copyright - Bootstrap</p>
+
+    </footer>     -->
+<!-- JavaScript JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>

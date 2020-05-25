@@ -85,6 +85,32 @@ a.start {
   text-transform: uppercase;
 }
 
+@media (max-width: 540px){
+  a.start, .links ul li a {
+    font-size: 1em;
+  }
+  
+  .links ul li {
+    padding: 0;
+  }
+}
+
+@media (max-width: 413px){
+  a.start {
+    display: none;
+  }
+
+  .links ul li {
+    padding: 0;
+    float: left;
+  }
+
+  .links ul {
+    padding: 0;
+  }
+}
+  
+
 
 
 /* 

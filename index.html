@@ -33,7 +33,7 @@
                                 <button class="button text-uppercase">Contact</button></a>
                         </li>
                         <li>
-                            <a href="#" data-toggle="modal" data-target="#modalSuporte"><button class="on">
+                            <a href="#" data-toggle="modal" data-target="#login"><button class="on">
                                 <img src="img/power.png" 
                           width="40" height="40" alt = "suporte"></button></a>
                         </li>
@@ -43,6 +43,47 @@
             </nav>
         </div>
     </header>
+
+    <div id="login" class="modal fade" tabindex="-1" role="dialog"><!-- Início do código da janela modal Login-->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header"><!-- Header do modal -->
+                    <h4 class="modal-title">Login</h4><!-- Título -->
+                </div>
+              
+            <div class="modal-body"><!-- Corpo do modal -->
+                  
+               <!-- Início do Formulário -->
+               <section class="form-section">
+                <h1>Welcome</h1>
+          
+                <div class="form-wrapper">
+                  <form class="form_login" action="">
+                    <div class="input-block">
+                      <label for="login-email">Email</label>
+                      <input type="email" id="login-email" />
+                    </div>
+                    <div class="input-block">
+                      <label for="login-password">Password</label>
+                      <input type="password" id="login-password" />
+                    </div>
+                    <button type="submit" class="btn-login">Login</button>
+                  </form>
+                </div>
+              </section>
+              <ul class="squares">
+            </ul>
+                
+                </div>
+
+                <div class="modal-footer"><!-- Footer do Modal -->
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Fechar <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                    </button>                
+                </div>
+            </div>
+        </div>
+    </div><!-- ##Fim do Modal -->
     
     <section class="section_1">
         <div class="container d-flex flex-column justify-content-center align-items-center mt-5 first_container">
@@ -175,6 +216,7 @@
         <p>Copyright - Bootstrap</p>
 
     </footer>     -->
+    <script src="script.js"></script>
 <!-- JavaScript JQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

@@ -410,6 +410,15 @@ input:checked ~ .ul_hamburguer {
   border-radius: 2.5%;
 }
 
+h2#azul {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: #2d3e50;
+  text-align: center;
+}
+
+
 .branco{
   display: flex;
   flex-direction: column;
@@ -471,6 +480,19 @@ h2#branco {
   -ms-transform: translate(-50%, -50%);
 }
 
+/* contact */
+
+.section_4 {
+  margin-bottom: 30px;
+  background-color: #f3f3f3f3;
+}
+
+.contact {
+  color: #2d3e50
+}
+
+/* fim contact */
+
 /* 
 footer {
   background-color: #1b252f;
@@ -507,9 +529,7 @@ footer p {
     padding-bottom: 30px;
   }
 
-  .section_4 {
-    margin-bottom: 30px;
-  }
+
 
   .section_5 {
     background-color: #2d3e50;
@@ -540,13 +560,6 @@ footer p {
     margin-top: 10px;
   }
 
-  h2#azul {
-    font-size: 2.5em;
-    text-transform: uppercase;
-    margin-top: 30px;
-    color: #2d3e50;
-    text-align: center;
-  }
 
   h2#branco {
     font-size: 2.5em;
@@ -566,9 +579,6 @@ footer p {
     text-align: center;
   }
 
-  .contact {
-    color: #2d3e50
-  }
 
   .socialmedias {
     display: flex;

@@ -38,6 +38,13 @@ form.addEventListener("animationend", event => {
     }
 });
 
+// início menu hamburguer
 
+function removerChecked() {
+  var ele = document.getElementsByName("check");
+  for(var i=0;i<ele.length;i++){
+     ele[i].checked = false;
+  }
+}
 
 

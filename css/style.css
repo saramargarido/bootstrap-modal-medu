@@ -107,7 +107,7 @@ a.start {
 /* login */
 
 .modal-body {
-  background-color: #FF8598;
+  background-color: #13708A;
 }
 
 .form-section {
@@ -115,13 +115,14 @@ a.start {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #FF8598;
+  background-color: #13708A;
 }
 
 .form-section h1 {
   font-size: 32px;
   letter-spacing: 1px;
   margin: 20px 0;
+  color: #fff;
   
 }
 
@@ -239,34 +240,7 @@ a.start {
   }
 }
 
-/* squares */
-/* body {
-  overflow: hidden;
-} */
 
-.squares li {
-  width: 40px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.15);
-  display: block;
-  position: absolute;
-  bottom: -40px;
-  animation: up 2s infinite alternate;
-}
-
-@keyframes up {
-  from {
-    opacity: 0;
-    transform: translateY(0);
-  }
-  50% {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    transform: translateY(-900px) rotate(960deg);
-  }
-}
 /* 1ª section */
 .section_1 {
   background-color: #7BD6C7;

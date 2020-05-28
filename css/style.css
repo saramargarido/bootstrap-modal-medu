@@ -386,9 +386,6 @@ input:checked ~ .ul_hamburguer {
   }
 }
   
-.first_container {
-  color: #fff;
-}
 
 #avatar {
   margin-top: 55px;
